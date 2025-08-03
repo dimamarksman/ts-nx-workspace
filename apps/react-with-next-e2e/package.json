@@ -1,0 +1,10 @@
+{
+  "name": "@ts-nx-workspace/react-with-next-e2e",
+  "version": "0.0.1",
+  "private": true,
+  "nx": {
+    "implicitDependencies": [
+      "@ts-nx-workspace/react-with-next"
+    ]
+  }
+}
