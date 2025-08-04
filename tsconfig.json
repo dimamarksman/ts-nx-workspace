@@ -8,6 +8,15 @@
     },
     {
       "path": "./apps/react-with-next"
+    },
+    {
+      "path": "./packages/ui"
+    },
+    {
+      "path": "./packages/animal"
+    },
+    {
+      "path": "./packages/zoo"
     }
   ]
 }

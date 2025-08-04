@@ -1,5 +1,5 @@
-
-
+import { TsNxWorkspaceUi } from '@ts-nx-workspace/ui';
+import { animal } from '@ts-nx-workspace/animal';
 
 export default function Index() {
   /*
@@ -9,14 +9,13 @@ export default function Index() {
    */
   return (
     <div>
-      
-      
     <div className="wrapper">
       <div className="container">
+        <TsNxWorkspaceUi />
         <div id="welcome">
           <h1>
             <span> Hello there, </span>
-            Welcome @ts-nx-workspace/react-with-next 👋
+            {animal().toUpperCase()} welcome @ts-nx-workspace/react-with-next 👋
           </h1>
         </div>
 
